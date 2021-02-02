@@ -24,6 +24,11 @@ void divisionalgo(int a, int b){
     int q;
     int r;
 
+    if (b == 0) {
+        cout << "You cannot divide by 0" << endl;
+        return;
+    }
+
     if(a >= b)
     {
         q = 0;
